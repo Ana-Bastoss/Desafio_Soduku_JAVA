@@ -16,14 +16,14 @@ public class Main {
         int option;
         
         System.out.println("╔═══════════════════════════════════╗");
-        System.out.println("║             SUDOKU            ║");
+        System.out.println("║             SUDOKU                ║");
         System.out.println("║     Jogo Interativo em Java       ║");
         System.out.println("╚═══════════════════════════════════╝");
         
         game.displayBoard();
         
         do {
-            System.out.println("\n┌─────────────────────────────────────┐");
+            System.out.println("\n┌───────────────────────────────────┐");
             System.out.println("│     Selecione uma das opções:       │");
             System.out.println("├─────────────────────────────────────┤");
             System.out.println("│ 1 - Iniciar um novo jogo            │");
@@ -66,7 +66,7 @@ public class Main {
                         break;
                     case 8:
                         System.out.println(" Obrigado por jogar Sudoku!");
-                        System.out.println("🎮 Até a próxima!");
+                        System.out.println("Até a próxima!");
                         break;
                     default:
                         System.out.println("Opção inválida! Por favor, escolha entre 1 e 8.");
