@@ -4,9 +4,9 @@ import java.util.InputMismatchException;
 public class SudokuGame {
     private static final int SIZE = 9;
     private int[][] board;
-    private boolean[][] originalBoard; // Changed to boolean to track original cells more efficiently
+    private boolean[][] originalBoard;
     private Scanner scanner;
-    private int movesCount; // Added move counter for statistics
+    private int movesCount;
     
     public SudokuGame() {
         this.board = new int[SIZE][SIZE];
